@@ -1,0 +1,76 @@
+@media only screen and(max-width:750px){
+    .custom-sizer{
+        width:100%;
+    }
+}
+
+body,html{
+    margin:0;
+    width:100%;
+    height:100%;
+}
+.home{
+    background-image:url('/jpg/homebackground.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+.loginn{
+    background-image:url('/jpg/loginbackgsmall.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+.custom-color{
+    color:#ff8533;
+    transition:0.4s ease;
+    -moz-transition:0.4s ease;
+    -webkit-transition:0.4s ease;
+
+}
+.custom-color:hover{
+    text-decoration:none;
+    color:black;
+}
+
+.main-height{
+    height:auto;
+    min-height:100vh;
+}
+
+.not-visible-for-user{
+    display:none;
+}
+
+.recipe .top-content{
+    background-image:url('/jpg/recipe.jpg');
+    background-size:cover;
+    background-position:right;
+    background-repeat:no-repeat;
+}
+.visitor{
+    background-color:#ffffff;
+}
+.visitor .search-container{
+    background-image:url('/jpg/visitorsmall.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:450px;
+}
+.profimg{
+    width:38px;
+    height:auto;
+}
+
+.unvisible{
+    display:none;
+}
+#comment-container{
+    margin-bottom:100px;
+}
+
+

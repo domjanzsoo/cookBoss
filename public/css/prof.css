@@ -1,0 +1,51 @@
+
+.article{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    -moz-transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out ;
+    transition: all 3s ease-in-out;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    text-align:center;
+  }
+
+.article span{
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+}
+  
+  .article:hover{
+    -moz-transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    transform: scale(2,2); 
+
+ 
+  }
+
+  .custom-form-container{
+    width:50%;
+    margin:50px auto;
+  }
+
+  .custom{
+    outline:none;
+    border:none;
+    box-shadow:inset 0 -1px 0 #fff;
+  }
+
+  .commentInputSection .custom{
+    border:1px;
+    outline:2px;
+  }
+
+  #instructions{
+    height:50px;
+    overflow:hidden;
+    transition:2s ease;
+    -moz-transition:2s ease;
+    -webkit-transition:2s ease;
+  }
